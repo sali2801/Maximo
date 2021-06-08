@@ -1,0 +1,36 @@
+.bx--header__menu-toggle__hidden {
+  display: flex;
+}
+
+a.bx--header__name {
+  padding-left: 0;
+}
+
+.bx--side-nav__navigation {
+  background-color: $gray-100;
+}
+
+.bx--side-nav__icon:not(.bx--side-nav__submenu-chevron) {
+  margin-right: $spacing-03;
+}
+
+.bx--side-nav__submenu {
+  padding: $spacing-05 $spacing-03 $spacing-05 $spacing-05;
+}
+
+.bx--side-nav__link {
+  color: $gray-50;
+}
+
+a.bx--side-nav__link > .bx--side-nav__link-text,
+.bx--side-nav a.bx--header__menu-item .bx--text-truncate-end {
+  color: $gray-50;
+}
+
+.bx--side-nav__icon > svg {
+  fill: $gray-50;
+}
+
+.bx--side-nav__submenu-title {
+  color: $gray-50;
+}

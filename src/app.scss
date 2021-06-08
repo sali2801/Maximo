@@ -1,0 +1,17 @@
+@import '@carbon/themes/scss/themes';
+
+$carbon--theme: $carbon--theme--g10;
+
+// Use the gray 10 theme
+@include carbon--theme();
+
+@import 'carbon-components/scss/globals/scss/styles.scss';
+@import '@carbon/charts/styles/styles.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/typography.scss';
+@import 'carbon-components/scss/globals/scss/vars.scss';
+@import '@carbon/colors/scss/colors';
+
+@import './components/AppHeader/app-header.scss';
+@import './containers/LandingPage/landing-page.scss';

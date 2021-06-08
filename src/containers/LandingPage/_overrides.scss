@@ -1,0 +1,40 @@
+.bx--overflow-menu-options__option {
+  width: auto;
+}
+
+.bx--content {
+  padding: 0;
+  overflow: hidden;
+}
+
+.bx--grid {
+  padding: 0;
+}
+
+.bx--cc--axes g.axis .axis-title {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.bx--data-table-container {
+  background-color: white;
+  margin-right: $spacing-05;
+  padding: 0;
+}
+
+.bx--data-table-header {
+  padding: $spacing-05;
+  display: inline-block;
+}
+
+.bx--data-table-header__title {
+  font-size: $spacing-06;
+}
+
+.bx--table-toolbar {
+  display: inline-block;
+  float: right;
+  padding-top: $spacing-07;
+  width: auto;
+  overflow: visible;
+}

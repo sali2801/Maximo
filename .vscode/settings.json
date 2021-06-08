@@ -1,0 +1,38 @@
+{
+    // General
+    "files.exclude": {
+      "**/coverage/": true,
+      "**/build/": true,
+      "**/build-locale/": true,
+      "**/.eslintcache": true
+    },
+  
+    // File types
+    "[javascriptreact]": {
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true
+    },
+  
+    "[markdown]": {
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true,
+      "editor.formatOnSave": true
+    },
+  
+    "[typescript]": {
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true,
+      "editor.formatOnSave": true
+    },
+  
+    "[typescriptreact]": {
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true,
+      "editor.formatOnSave": true
+    },
+  
+    // JavaScript
+    "eslint.enable": true,
+    "eslint.workingDirectories": [{ "mode": "auto" }]
+  }
+  
